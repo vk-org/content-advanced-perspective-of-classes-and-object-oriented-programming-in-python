@@ -1,4 +1,3 @@
-
 class BusinessLead():
 
     def __init__(self, name, trainable, train):
@@ -7,9 +6,9 @@ class BusinessLead():
         self.train = train
 
     def __lt__(self, other):
-        return self.train - self.trainable < other.train - other.trainable
+        return (self.train - self.trainable) < (other.train - other.trainable)
 
-    def __repr__(self):
+    def __repr__(self)
         return repr((self.name, self.trainable, self.train))
 
 if __name__ == "__main__":
