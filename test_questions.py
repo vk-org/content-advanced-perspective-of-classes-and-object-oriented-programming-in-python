@@ -84,6 +84,6 @@ class TestMultipleSelectQuestion(unittest.TestCase):
 
 1. print
 2. random.sample
-3. list
-4. str
+3. str
+4. list
 """)
